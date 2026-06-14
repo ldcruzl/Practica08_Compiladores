@@ -1,9 +1,10 @@
 # Practica 3 - Implementacion LR con Bison
 
-## Descripcion:
+# Descripcion
+
 Implementación de un analizador sintáctico LR utilizando Flex y Bison. 
 El programa reconoce expresiones aritméticas formadas por identificadores, operadores de suma y multiplicación, además del uso de paréntesis.
-----
+
 # Archivos:
 - **lexer.l:** Analizador lexico
 - **parser.y:** Analizador sintactico
