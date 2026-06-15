@@ -26,7 +26,7 @@ S → CC genera cadenas de la forma: `(c*d)(c*d)`
 ```bash
 bison -d parser.y
 flex lexer.l
-gcc lex.yy.c parser.tab.c -o parser -lfl
+gcc lex.yy.c parser.tab.c -o parser
 ```
 
 ## Uso
