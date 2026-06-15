@@ -12,7 +12,7 @@ void yyerror(const char *s);
 %token ERROR
 
 %left MAS
-%left MULT          /* MULT tiene mayor precedencia al ir después */
+%left MULT
 
 %%
 
